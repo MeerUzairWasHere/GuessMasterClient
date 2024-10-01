@@ -13,7 +13,7 @@ export class GuessService {
      * @returns any Guess result
      * @throws ApiError
      */
-    public static postGuess(
+    public static CreateGuess(
         gameId: string,
         requestBody: {
             guess: number;

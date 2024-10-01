@@ -11,7 +11,7 @@ export class LeaderboardService {
      * @returns any Successfully fetched leaderboard
      * @throws ApiError
      */
-    public static getLeaderboardEasy(): CancelablePromise<Array<{
+    public static getLeaderboardEasyLevel(): CancelablePromise<Array<{
         name?: string;
         easyAttempt?: number;
     }>> {
@@ -28,7 +28,7 @@ export class LeaderboardService {
      * @returns any Successfully fetched leaderboard
      * @throws ApiError
      */
-    public static getLeaderboardMedium(): CancelablePromise<Array<{
+    public static getLeaderboardMediumLevel(): CancelablePromise<Array<{
         name?: string;
         mediumAttempt?: number;
     }>> {
@@ -45,7 +45,7 @@ export class LeaderboardService {
      * @returns any Successfully fetched leaderboard
      * @throws ApiError
      */
-    public static getLeaderboardHard(): CancelablePromise<Array<{
+    public static getLeaderboardHardLevel(): CancelablePromise<Array<{
         name?: string;
         hardAttempt?: number;
     }>> {

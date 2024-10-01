@@ -3,3 +3,4 @@ generated/
 .gitignore
 test/
 .vscode/
+tsconfig.json

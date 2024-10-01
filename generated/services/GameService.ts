@@ -12,7 +12,7 @@ export class GameService {
      * @returns any Game created successfully
      * @throws ApiError
      */
-    public static postGames(
+    public static CreateGame(
         requestBody: {
             difficulty: 'easy' | 'medium' | 'hard';
         },
@@ -38,7 +38,7 @@ export class GameService {
      * @returns any Successfully fetched games
      * @throws ApiError
      */
-    public static getGames(): CancelablePromise<{
+    public static GetAllGames(): CancelablePromise<{
         games?: Array<{
             _id?: string;
             userId?: string;
@@ -61,7 +61,7 @@ export class GameService {
      * @returns any Game deleted successfully
      * @throws ApiError
      */
-    public static deleteGames(
+    public static DeleteGame(
         id: string,
     ): CancelablePromise<{
         msg?: string;

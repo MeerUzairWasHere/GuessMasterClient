@@ -2,10 +2,10 @@
   "name": "guessmasterclient",
   "version": "1.0.0",
   "description": "A client for guessmaster game",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "MeerUzairWasHere",
   "license": "ISC"
 }

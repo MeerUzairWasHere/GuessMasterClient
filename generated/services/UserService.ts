@@ -11,7 +11,7 @@ export class UserService {
      * @returns any Successfully fetched user profile
      * @throws ApiError
      */
-    public static getUsersCurrentUser(): CancelablePromise<{
+    public static GetCurrentUser(): CancelablePromise<{
         user?: {
             name?: string;
             email?: string;

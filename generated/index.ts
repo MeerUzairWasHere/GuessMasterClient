@@ -1,6 +1,9 @@
 /* generated using openapi-typescript-codegen -- do not edit */
 /* istanbul ignore file */
 /* tslint:disable */
+
+import { AuthService } from './services/AuthService';
+
 /* eslint-disable */
 export { ApiError } from './core/ApiError';
 export { CancelablePromise, CancelError } from './core/CancelablePromise';
@@ -16,3 +19,4 @@ export { GameService } from './services/GameService';
 export { GuessService } from './services/GuessService';
 export { LeaderboardService } from './services/LeaderboardService';
 export { UserService } from './services/UserService';
+

@@ -12,7 +12,7 @@ export class AuthService {
      * @returns any User registered successfully
      * @throws ApiError
      */
-    public static postAuthRegister(
+    public static RegisterUser(
         requestBody: {
             name: string;
             email: string;
@@ -38,7 +38,7 @@ export class AuthService {
      * @returns any Successfully logged in
      * @throws ApiError
      */
-    public static postAuthLogin(
+    public static LoginUser(
         requestBody: {
             email: string;
             password: string;
@@ -65,7 +65,7 @@ export class AuthService {
      * @returns any Successfully logged out
      * @throws ApiError
      */
-    public static deleteAuthLogout(): CancelablePromise<{
+    public static LogoutUser(): CancelablePromise<{
         msg?: string;
     }> {
         return __request(OpenAPI, {

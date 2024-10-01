@@ -1,6 +1,6 @@
 {
   "name": "guessmasterclient",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A client for guessmaster game",
   "main": "dist/index.js",
   "scripts": {
